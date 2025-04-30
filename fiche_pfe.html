@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Fiche PFE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0e8f8;
+      display: flex;
+      justify-content: center;
+      padding: 30px;
+    }
+    form {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 500px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      background-color: #004aad;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #00338f;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <h2>Fiche Projet de fin d’études</h2>
+
+    <label for="nom">Nom *</label>
+    <input type="text" id="nom" name="nom" required>
+
+    <label for="prenom">Prénom *</label>
+    <input type="text" id="prenom" name="prenom" required>
+
+    <label for="matricule">Matricule *</label>
+    <input type="text" id="matricule" name="matricule" required>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="tel">Téléphone *</label>
+    <input type="tel" id="tel" name="tel" required>
+
+    <label for="niveau">Niveau *</label>
+    <input type="radio" id="licence" name="niveau" value="Licence" required>
+    <label for="licence">Licence</label>
+    <input type="radio" id="master" name="niveau" value="Master">
+    <label for="master">Master</label>
+
+    <label for="specialite">Votre spécialité *</label>
+    <select id="specialite" name="specialite" required>
+      <option value="">-- Sélectionner --</option>
+      <option value="Systèmes embarqués">Systèmes Embarqués</option>
+      <option value="Big Data">Big Data</option>
+      <option value="Cloud Computing">Cloud Computing</option>
+      <option value="Cybersécurité">Cybersécurité</option>
+    </select>
+
+    <label for="titre">Titre du projet *</label>
+    <input type="text" id="titre" name="titre" required>
+
+    <label for="domaine">Domaine *</label>
+    <select id="domaine" name="domaine" required>
+      <option value="">-- Choisir un domaine --</option>
+      <option>Développement Web et Mobile</option>
+      <option>Intelligence Artificielle</option>
+      <option>Systèmes Embarqués</option>
+      <option>Cloud Computing</option>
+      <option>Réseaux et Sécurité</option>
+    </select>
+
+    <label for="resume">Résumé du Projet *</label>
+    <textarea id="resume" name="resume" rows="4" required></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+
+</body>
+</html>
