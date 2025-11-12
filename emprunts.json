@@ -1,0 +1,58 @@
+[
+  {
+    "isbn": "978-2-7440-7326-9",
+    "id_utilisateur": "U001",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  },
+  {
+    "isbn": "978-2-2120-6750-2",
+    "id_utilisateur": "U001",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": "2025-11-12"
+  },
+  {
+    "isbn": "978-2-2120-5678-1",
+    "id_utilisateur": "U002",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": "2025-11-12"
+  },
+  {
+    "isbn": "978-2-7440-1234-5",
+    "id_utilisateur": "U003",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  },
+  {
+    "isbn": "978-2-2120-9876-3",
+    "id_utilisateur": "U004",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  },
+  {
+    "isbn": "978-2-7440-5555-6",
+    "id_utilisateur": "U005",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  },
+  {
+    "isbn": "978-2-2120-6750-2",
+    "id_utilisateur": "U002",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  },
+  {
+    "isbn": "978-2-2120-5678-1",
+    "id_utilisateur": "U001",
+    "date_emprunt": "2025-11-12",
+    "date_retour_prevue": "2025-11-26",
+    "date_retour_effective": null
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "id_utilisateur": "U001",
+    "nom": "Benali",
+    "prenom": "Ahmed",
+    "email": "ahmed.benali@univ.dz",
+    "livres_empruntes": [
+      "978-2-7440-7326-9",
+      "978-2-2120-5678-1"
+    ],
+    "historique_emprunts": 3
+  },
+  {
+    "id_utilisateur": "U002",
+    "nom": "Kaddour",
+    "prenom": "Fatima",
+    "email": "fatima.kaddour@univ.dz",
+    "livres_empruntes": [
+      "978-2-2120-6750-2"
+    ],
+    "historique_emprunts": 2
+  },
+  {
+    "id_utilisateur": "U003",
+    "nom": "Meziane",
+    "prenom": "Karim",
+    "email": "karim.meziane@univ.dz",
+    "livres_empruntes": [
+      "978-2-7440-1234-5"
+    ],
+    "historique_emprunts": 1
+  },
+  {
+    "id_utilisateur": "U004",
+    "nom": "Boudiaf",
+    "prenom": "Sarah",
+    "email": "sarah.boudiaf@univ.dz",
+    "livres_empruntes": [
+      "978-2-2120-9876-3"
+    ],
+    "historique_emprunts": 1
+  },
+  {
+    "id_utilisateur": "U005",
+    "nom": "Hamidi",
+    "prenom": "Yacine",
+    "email": "yacine.hamidi@univ.dz",
+    "livres_empruntes": [
+      "978-2-7440-5555-6"
+    ],
+    "historique_emprunts": 1
+  },
+  {
+    "id_utilisateur": "U006",
+    "nom": "Cherif",
+    "prenom": "Amina",
+    "email": "amina.cherif@univ.dz",
+    "livres_empruntes": [],
+    "historique_emprunts": 0
+  },
+  {
+    "id_utilisateur": "U007",
+    "nom": "Mansouri",
+    "prenom": "Mehdi",
+    "email": "mehdi.mansouri@univ.dz",
+    "livres_empruntes": [],
+    "historique_emprunts": 0
+  }
+]

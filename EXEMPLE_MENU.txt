@@ -1,0 +1,239 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                    EXEMPLE D'UTILISATION DU PROGRAMME                        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            ÉCRAN D'ACCUEIL
+═══════════════════════════════════════════════════════════════════════════════
+
+$ python3 bibliotheque.py
+
+🔄 Chargement des données...
+✅ Données chargées avec succès.
+
+============================================================
+📚 SYSTÈME DE GESTION DE BIBLIOTHÈQUE UNIVERSITAIRE 📚
+============================================================
+
+--- GESTION DES LIVRES ---
+1.  Ajouter un livre
+2.  Supprimer un livre
+3.  Rechercher un livre
+4.  Afficher tous les livres
+
+--- GESTION DES UTILISATEURS ---
+5.  Ajouter un utilisateur
+6.  Supprimer un utilisateur
+7.  Afficher tous les utilisateurs
+
+--- GESTION DES EMPRUNTS ---
+8.  Emprunter un livre
+9.  Retourner un livre
+10. Afficher les emprunts en cours
+
+--- STATISTIQUES ---
+11. Livres les plus empruntés
+12. Utilisateurs les plus actifs
+13. Statistiques générales
+
+--- DONNÉES ---
+14. Sauvegarder les données
+15. Charger les données
+
+0.  Quitter
+============================================================
+
+👉 Votre choix : 
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                        EXEMPLE 1 : AJOUTER UN LIVRE
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 1
+
+--- Ajouter un livre ---
+ISBN : 978-2-1234-5678-9
+Titre : Introduction à Python
+Auteur : Guido van Rossum
+Année de publication : 2023
+✅ Livre 'Introduction à Python' ajouté avec succès.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 2 : AFFICHER TOUS LES LIVRES
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 4
+
+📚 Liste des livres (10 livre(s)) :
+========================================================================================================================
+ISBN: 978-2-7440-4444-5 | Titre: Architecture des Ordinateurs | Auteur: David Patterson | Année: 2014 | Statut: Disponible | Emprunts: 0
+ISBN: 978-2-7440-1234-5 | Titre: Base de Données Relationnelles | Auteur: Ramez Elmasri | Année: 2017 | Statut: Emprunté | Emprunts: 1
+ISBN: 978-2-7440-8888-9 | Titre: Génie Logiciel | Auteur: Ian Sommerville | Année: 2019 | Statut: Disponible | Emprunts: 0
+ISBN: 978-2-7440-5555-6 | Titre: Intelligence Artificielle | Auteur: Stuart Russell | Année: 2020 | Statut: Emprunté | Emprunts: 1
+ISBN: 978-2-7440-7326-9 | Titre: Introduction à l'Algorithmique | Auteur: Thomas H. Cormen | Année: 2009 | Statut: Emprunté | Emprunts: 1
+ISBN: 978-2-7440-4444-5 | Titre: Programmation Web | Auteur: Jon Duckett | Année: 2021 | Statut: Disponible | Emprunts: 0
+ISBN: 978-2-2120-6750-2 | Titre: Python pour les Nuls | Auteur: John Paul Mueller | Année: 2019 | Statut: Emprunté | Emprunts: 2
+ISBN: 978-2-2120-9876-3 | Titre: Réseaux Informatiques | Auteur: Andrew Tanenbaum | Année: 2018 | Statut: Emprunté | Emprunts: 1
+ISBN: 978-2-2120-5678-1 | Titre: Structure de Données en C | Auteur: Tanenbaum | Année: 2015 | Statut: Emprunté | Emprunts: 2
+ISBN: 978-2-7440-7777-8 | Titre: Systèmes d'Exploitation | Auteur: Abraham Silberschatz | Année: 2016 | Statut: Disponible | Emprunts: 0
+========================================================================================================================
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 3 : RECHERCHER UN LIVRE
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 3
+
+--- Rechercher un livre ---
+Critères de recherche : titre, auteur, isbn
+Critère : auteur
+Valeur à rechercher : Tanenbaum
+
+✅ 2 résultat(s) trouvé(s) :
+ISBN: 978-2-2120-9876-3 | Titre: Réseaux Informatiques | Auteur: Andrew Tanenbaum | Année: 2018 | Statut: Emprunté | Emprunts: 1
+ISBN: 978-2-2120-5678-1 | Titre: Structure de Données en C | Auteur: Tanenbaum | Année: 2015 | Statut: Emprunté | Emprunts: 2
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 4 : EMPRUNTER UN LIVRE
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 8
+
+--- Emprunter un livre ---
+ISBN du livre : 978-2-7440-7777-8
+ID de l'utilisateur : U006
+Durée de l'emprunt en jours (défaut: 14) : 14
+✅ Livre 'Systèmes d'Exploitation' emprunté par Amina Cherif.
+   Date d'emprunt : 2025-11-12
+   Date de retour prévue : 2025-11-26
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 5 : AFFICHER LES EMPRUNTS EN COURS
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 10
+
+📋 Emprunts en cours (6) :
+========================================================================================================================
+Livre: Introduction à l'Algorithmique | Utilisateur: Ahmed Benali | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+Livre: Structure de Données en C | Utilisateur: Ahmed Benali | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+Livre: Python pour les Nuls | Utilisateur: Fatima Kaddour | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+Livre: Base de Données Relationnelles | Utilisateur: Karim Meziane | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+Livre: Réseaux Informatiques | Utilisateur: Sarah Boudiaf | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+Livre: Intelligence Artificielle | Utilisateur: Yacine Hamidi | Date emprunt: 2025-11-12 | Retour prévu: 2025-11-26
+========================================================================================================================
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 6 : RETOURNER UN LIVRE
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 9
+
+--- Retourner un livre ---
+ISBN du livre : 978-2-7440-7326-9
+ID de l'utilisateur : U001
+✅ Livre 'Introduction à l'Algorithmique' retourné par Ahmed Benali.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 7 : STATISTIQUES GÉNÉRALES
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 13
+
+📊 Statistiques générales de la bibliothèque :
+============================================================
+📚 Total de livres : 10
+   - Disponibles : 4
+   - Empruntés : 6
+👥 Total d'utilisateurs : 7
+📋 Total d'emprunts (historique) : 8
+📋 Emprunts en cours : 6
+============================================================
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 8 : TOP DES LIVRES LES PLUS EMPRUNTÉS
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 11
+
+Nombre de livres à afficher (défaut: 5) : 5
+
+📊 Top 5 des livres les plus empruntés :
+========================================================================================================================
+1. Python pour les Nuls par John Paul Mueller - 2 emprunt(s)
+2. Structure de Données en C par Tanenbaum - 2 emprunt(s)
+3. Introduction à l'Algorithmique par Thomas H. Cormen - 1 emprunt(s)
+4. Base de Données Relationnelles par Ramez Elmasri - 1 emprunt(s)
+5. Réseaux Informatiques par Andrew Tanenbaum - 1 emprunt(s)
+========================================================================================================================
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 9 : TOP DES UTILISATEURS LES PLUS ACTIFS
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 12
+
+Nombre d'utilisateurs à afficher (défaut: 5) : 5
+
+📊 Top 5 des utilisateurs les plus actifs :
+========================================================================================================================
+1. Ahmed Benali - 2 emprunt(s)
+2. Fatima Kaddour - 2 emprunt(s)
+3. Karim Meziane - 1 emprunt(s)
+4. Sarah Boudiaf - 1 emprunt(s)
+5. Yacine Hamidi - 1 emprunt(s)
+========================================================================================================================
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 10 : GESTION DES ERREURS
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 8
+
+--- Emprunter un livre ---
+ISBN du livre : 978-2-7440-7326-9
+ID de l'utilisateur : U002
+❌ Erreur : Le livre 'Introduction à l'Algorithmique' est déjà emprunté.
+
+
+👉 Votre choix : 8
+
+--- Emprunter un livre ---
+ISBN du livre : 978-2-7440-4444-5
+ID de l'utilisateur : U001
+❌ Erreur : L'utilisateur a atteint la limite de 3 emprunts simultanés.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    EXEMPLE 11 : QUITTER LE PROGRAMME
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 Votre choix : 0
+
+💾 Sauvegarde automatique des données...
+✅ Données sauvegardées avec succès.
+👋 Au revoir !
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            FIN DE L'EXEMPLE
+═══════════════════════════════════════════════════════════════════════════════
+
+Pour tester le programme :
+  1. Lancez : python3 test_bibliotheque.py (option 3)
+  2. Puis : python3 bibliotheque.py
+
+Consultez GUIDE_UTILISATION.md pour plus d'exemples détaillés.

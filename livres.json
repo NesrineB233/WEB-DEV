@@ -1,0 +1,82 @@
+[
+  {
+    "isbn": "978-2-7440-7326-9",
+    "titre": "Introduction à l'Algorithmique",
+    "auteur": "Thomas H. Cormen",
+    "annee": 2009,
+    "disponible": false,
+    "nombre_emprunts": 1
+  },
+  {
+    "isbn": "978-2-2120-6750-2",
+    "titre": "Python pour les Nuls",
+    "auteur": "John Paul Mueller",
+    "annee": 2019,
+    "disponible": false,
+    "nombre_emprunts": 2
+  },
+  {
+    "isbn": "978-2-2120-5678-1",
+    "titre": "Structure de Données en C",
+    "auteur": "Tanenbaum",
+    "annee": 2015,
+    "disponible": false,
+    "nombre_emprunts": 2
+  },
+  {
+    "isbn": "978-2-7440-1234-5",
+    "titre": "Base de Données Relationnelles",
+    "auteur": "Ramez Elmasri",
+    "annee": 2017,
+    "disponible": false,
+    "nombre_emprunts": 1
+  },
+  {
+    "isbn": "978-2-2120-9876-3",
+    "titre": "Réseaux Informatiques",
+    "auteur": "Andrew Tanenbaum",
+    "annee": 2018,
+    "disponible": false,
+    "nombre_emprunts": 1
+  },
+  {
+    "isbn": "978-2-7440-5555-6",
+    "titre": "Intelligence Artificielle",
+    "auteur": "Stuart Russell",
+    "annee": 2020,
+    "disponible": false,
+    "nombre_emprunts": 1
+  },
+  {
+    "isbn": "978-2-2120-7777-8",
+    "titre": "Systèmes d'Exploitation",
+    "auteur": "Abraham Silberschatz",
+    "annee": 2016,
+    "disponible": true,
+    "nombre_emprunts": 0
+  },
+  {
+    "isbn": "978-2-7440-8888-9",
+    "titre": "Génie Logiciel",
+    "auteur": "Ian Sommerville",
+    "annee": 2019,
+    "disponible": true,
+    "nombre_emprunts": 0
+  },
+  {
+    "isbn": "978-2-2120-3333-4",
+    "titre": "Architecture des Ordinateurs",
+    "auteur": "David Patterson",
+    "annee": 2014,
+    "disponible": true,
+    "nombre_emprunts": 0
+  },
+  {
+    "isbn": "978-2-7440-4444-5",
+    "titre": "Programmation Web",
+    "auteur": "Jon Duckett",
+    "annee": 2021,
+    "disponible": true,
+    "nombre_emprunts": 0
+  }
+]
